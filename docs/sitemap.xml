@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/</loc>
+    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/pages/</loc>
+    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/pages/iced_20200522/</loc>
+    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/categories/</loc>
+    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/categories/rust/</loc>
+    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/tags/rust/</loc>
+    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/tags/</loc>
+    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/note/series/</loc>
+  </url>
+  
+</urlset>
