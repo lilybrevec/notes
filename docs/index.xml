@@ -16,7 +16,7 @@
       <pubDate>Fri, 22 May 2020 00:13:00 +0900</pubDate>
       
       <guid>https://lilybrevec.github.io/note/pages/iced_20200522/</guid>
-      <description>Icedというフレームワークがある  hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm Elmをモデルにしているらしい。 OCaml Universeを彷彿とさせる。 ステートマシーンモデルが描きやすい。  </description>
+      <description>Icedというフレームワークがある  hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm Elmをモデルにしているらしい。 OCaml Universeを彷彿とさせる。 ステートマシーンモデルが描きやすい。 Issueで作者がよく質問に答えている  </description>
     </item>
     
     <item>
@@ -26,6 +26,15 @@
       
       <guid>https://lilybrevec.github.io/note/about/</guid>
       <description>@lilybrevec  Hi! My name is Yuri.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://lilybrevec.github.io/note/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilybrevec.github.io/note/search/</guid>
+      <description></description>
     </item>
     
   </channel>
