@@ -5,7 +5,6 @@ title: About
 description: Who am I?
 menu: main
 weight: -210
-slug: about
 ---
 
 > Noteを記すのは自分のしたことや自分が誰なのかを時々忘れてしまうからなのです。
