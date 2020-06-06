@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rust on Craft Note</title>
-    <link>https://lilybrevec.github.io/note/categories/rust/</link>
-    <description>Recent content in Rust on Craft Note</description>
+    <title>Rust on Craft Notes</title>
+    <link>https://lilybrevec.github.io/notes/categories/rust/</link>
+    <description>Recent content in Rust on Craft Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 22 May 2020 00:13:00 +0900</lastBuildDate>
     
-	<atom:link href="https://lilybrevec.github.io/note/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lilybrevec.github.io/notes/categories/rust/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Icedを触ってみた</title>
-      <link>https://lilybrevec.github.io/note/pages/iced_20200522/</link>
+      <link>https://lilybrevec.github.io/notes/pages/iced_20200522/</link>
       <pubDate>Fri, 22 May 2020 00:13:00 +0900</pubDate>
       
-      <guid>https://lilybrevec.github.io/note/pages/iced_20200522/</guid>
+      <guid>https://lilybrevec.github.io/notes/pages/iced_20200522/</guid>
       <description>Icedというフレームワークがある  hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm Elmをモデルにしているらしい。 OCaml Universeを彷彿とさせる。 ステートマシーンモデルが描きやすい。 Issueで作者がよく質問に答えている  </description>
     </item>
     

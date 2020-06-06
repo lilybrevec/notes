@@ -1,6 +1,6 @@
-baseURL = "https://lilybrevec.github.io/note/"
+baseURL = "https://lilybrevec.github.io/notes/"
 publishDir = "docs"
-title = "Craft Note"
+title = "Craft Notes"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -92,7 +92,7 @@ enable = true
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
 username = "lilybrevec"
-repository = "lilybrevec.github.io"
+repository = "notes"
 branch = "master"
 
 # Utterances: https://utteranc.es

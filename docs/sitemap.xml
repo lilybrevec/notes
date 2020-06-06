@@ -3,58 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lilybrevec.github.io/note/</loc>
+    <loc>https://lilybrevec.github.io/notes/</loc>
+    <lastmod>2020-06-06T23:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/notes/pages/</loc>
     <lastmod>2020-05-22T00:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/pages/</loc>
+    <loc>https://lilybrevec.github.io/notes/about/</loc>
+    <lastmod>2020-06-06T23:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilybrevec.github.io/notes/pages/iced_20200522/</loc>
     <lastmod>2020-05-22T00:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/pages/iced_20200522/</loc>
+    <loc>https://lilybrevec.github.io/notes/categories/</loc>
     <lastmod>2020-05-22T00:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://lilybrevec.github.io/note/categories/</loc>
+    <loc>https://lilybrevec.github.io/notes/categories/rust/</loc>
     <lastmod>2020-05-22T00:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/categories/rust/</loc>
+    <loc>https://lilybrevec.github.io/notes/tags/rust/</loc>
     <lastmod>2020-05-22T00:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/tags/rust/</loc>
+    <loc>https://lilybrevec.github.io/notes/tags/</loc>
     <lastmod>2020-05-22T00:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/tags/</loc>
-    <lastmod>2020-05-22T00:13:00+09:00</lastmod>
+    <loc>https://lilybrevec.github.io/notes/authors/</loc>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/authors/</loc>
+    <loc>https://lilybrevec.github.io/notes/page/</loc>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/page/</loc>
+    <loc>https://lilybrevec.github.io/notes/search/</loc>
   </url>
   
   <url>
-    <loc>https://lilybrevec.github.io/note/search/</loc>
-  </url>
-  
-  <url>
-    <loc>https://lilybrevec.github.io/note/series/</loc>
+    <loc>https://lilybrevec.github.io/notes/series/</loc>
   </url>
   
 </urlset>

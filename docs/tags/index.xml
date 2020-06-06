@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Craft Note</title>
-    <link>https://lilybrevec.github.io/note/tags/</link>
-    <description>Recent content in Tags on Craft Note</description>
+    <title>Tags on Craft Notes</title>
+    <link>https://lilybrevec.github.io/notes/tags/</link>
+    <description>Recent content in Tags on Craft Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 22 May 2020 00:13:00 +0900</lastBuildDate>
     
-	<atom:link href="https://lilybrevec.github.io/note/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lilybrevec.github.io/notes/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rust</title>
-      <link>https://lilybrevec.github.io/note/tags/rust/</link>
+      <link>https://lilybrevec.github.io/notes/tags/rust/</link>
       <pubDate>Fri, 22 May 2020 00:13:00 +0900</pubDate>
       
-      <guid>https://lilybrevec.github.io/note/tags/rust/</guid>
+      <guid>https://lilybrevec.github.io/notes/tags/rust/</guid>
       <description></description>
     </item>
     

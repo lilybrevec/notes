@@ -1,39 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Craft Note</title>
-    <link>https://lilybrevec.github.io/note/</link>
-    <description>Recent content in Home on Craft Note</description>
+    <title>Home on Craft Notes</title>
+    <link>https://lilybrevec.github.io/notes/</link>
+    <description>Recent content in Home on Craft Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 May 2020 00:13:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 23:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://lilybrevec.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lilybrevec.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>https://lilybrevec.github.io/notes/about/</link>
+      <pubDate>Sat, 06 Jun 2020 23:00:00 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/about/</guid>
+      <description> Noteを記すのは自分のしたことや自分が誰なのかを時々忘れてしまうからなのです。
+ Hi! My name is Yuri.
+I have written notes because sometimes I forget what I did and who am I.
+ Programming Languages  C/C++  MPI, Boost C++, Research using HElib, Competition Programming   Java  Research using OpenCV, Mockito, Spark   Rust  GUI App using iced   OCaml  Quoridor Client/Server App using OCaml Universe, Simple Compiler   PHP  App using Laravel PHP   JavaScript  Part Time Job for under IE11   Python  Petit codes, Committed little chage to weechat-notification-center      </description>
+    </item>
+    
+    <item>
       <title>Icedを触ってみた</title>
-      <link>https://lilybrevec.github.io/note/pages/iced_20200522/</link>
+      <link>https://lilybrevec.github.io/notes/pages/iced_20200522/</link>
       <pubDate>Fri, 22 May 2020 00:13:00 +0900</pubDate>
       
-      <guid>https://lilybrevec.github.io/note/pages/iced_20200522/</guid>
+      <guid>https://lilybrevec.github.io/notes/pages/iced_20200522/</guid>
       <description>Icedというフレームワークがある  hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm Elmをモデルにしているらしい。 OCaml Universeを彷彿とさせる。 ステートマシーンモデルが描きやすい。 Issueで作者がよく質問に答えている  </description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://lilybrevec.github.io/note/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lilybrevec.github.io/note/about/</guid>
-      <description>@lilybrevec  Hi! My name is Yuri.</description>
-    </item>
-    
-    <item>
       <title>Search</title>
-      <link>https://lilybrevec.github.io/note/search/</link>
+      <link>https://lilybrevec.github.io/notes/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lilybrevec.github.io/note/search/</guid>
+      <guid>https://lilybrevec.github.io/notes/search/</guid>
       <description></description>
     </item>
     
