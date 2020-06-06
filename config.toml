@@ -102,7 +102,7 @@ issueTerm = "pathname" # pathname / url / title
 
 [params.comments.utterances.github]
 username = "lilybrevec"
-repository = "lilybrevec.github.io"
+repository = "notes"
 
 [params.search]
 client = "fuse" # algolia / fuse / lunr
@@ -125,7 +125,7 @@ page = "/:slug/"
 name = "Repo"
 weight = -10
 identifier = "repository"
-url = "https://github.com/lilybrevec/lilybrevec.github.io"
+url = "https://github.com/lilybrevec/notes"
 
 [blackfriday]
 hrefTargetBlank = true
