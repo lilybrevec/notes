@@ -1,6 +1,6 @@
 baseURL = "https://lilybrevec.github.io/notes/"
 publishDir = "docs"
-title = "Craft Notes"
+title = "Notes"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
