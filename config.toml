@@ -122,10 +122,10 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-name = "Repo"
+name = "Issue"
 weight = -10
 identifier = "repository"
-url = "https://github.com/lilybrevec/notes"
+url = "https://github.com/lilybrevec/notes/issues"
 
 [blackfriday]
 hrefTargetBlank = true

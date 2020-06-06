@@ -14,3 +14,5 @@ weight: -270
 ここはlilybrevecが、雑多な技術メモを記す場所です。
 内容は間違えている可能性もあるのでご注意ください。
 ```
+
+何か間違いの指摘や各種ご意見がございましたら[ISSUE](https://github.com/lilybrevec/notes/issues)へ

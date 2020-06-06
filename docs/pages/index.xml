@@ -16,7 +16,16 @@
       <pubDate>Fri, 22 May 2020 00:13:00 +0900</pubDate>
       
       <guid>https://lilybrevec.github.io/notes/pages/iced_20200522/</guid>
-      <description>Icedというフレームワークがある  hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm Elmをモデルにしているらしい。 OCaml Universeを彷彿とさせる。 ステートマシーンモデルが描きやすい。 Issueで作者がよく質問に答えている  </description>
+      <description>IcedというRust GUIアプリケーション フレームワークがある  hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm  ElmにインスパイアされたRust製クロスプラットフォームGUIライブラリとのことで、「なんだか便利そう」程度のモチベーションで触ってみたが、結構使い心地が良く、大変気に入っている。
+全体的なスタイルとしては、アプリケーションが状態を保持し、メッセージ等の機能によって状態を変化させる、謂わばステートマシンモデルのアプリケーション製作であり、これが個人的に大変手馴染みが良い。
+ Trait iced::Application  このスタイルが恐らくElmからもたらされたと考えられるが、私はElmを全く知らない。 しかし、この手馴染みの良さ、そしてこのどこか懐かしい感覚は一体なんだろうか。
+ Rustがパターンマッチングを持つのでOCamlを思い出しているのかしら?
+  待てよ、OCaml..OCamlだっ💡(:3
+ 学部3年生の時のOCaml Universeアプリケーション製作だな。
+ステートマシンモデルでアプリケーションを作るスタイルの出自については良く分かっていないが、関数型言語系アプリケーションの潮流なのかもしれないなぁと適当なことを考えた。（注：このNotesはひどく適当なので、何かコメントがございましたらIssueでご連絡いただけると幸いです。）
+というわけで、楽しく書かせていただいている。作者に感謝したい。
+あとは、作者に対する好感度も非常に高く持てるところがこのライブラリのいいところな気がする。 例えばIssueでは、ほとんどの質問に対して、作者が質問に良く答えている印象。
+ アイコンをどうするかワイワイ話し合っている。楽しそう。  Iced branding #143   個人的に役立ったフォントに関するissue  Does not support chinese? #213   個人的に役立ったストリームデータに関するissue  Create Subscription from futures::stream::Stream #338   キーイベントを簡単に補足する機能が実装されるかといったFuture Request Questionにも回答してもらえている。  Capture Key Events #173    今日はこの辺で。今後は気づいたTipsも投稿したい。</description>
     </item>
     
   </channel>
