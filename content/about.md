@@ -9,7 +9,7 @@ weight: -210
 
 > Notesを記すのは自分のしたことや自分が誰なのかを時々忘れてしまうからです。
 
-I have written notes because sometimes I forget what I did and who am I.
+I have written notes because sometimes I forget what I did and who I am.
 
 - Programming Languages
   - C/C++
