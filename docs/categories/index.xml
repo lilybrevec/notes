@@ -5,10 +5,19 @@
     <link>https://lilybrevec.github.io/notes/categories/</link>
     <description>Recent content in Categories on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 May 2020 00:13:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2020 01:47:24 +0900</lastBuildDate>
     
 	<atom:link href="https://lilybrevec.github.io/notes/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crypt</title>
+      <link>https://lilybrevec.github.io/notes/categories/crypt/</link>
+      <pubDate>Mon, 08 Jun 2020 01:47:24 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/categories/crypt/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Rust</title>
