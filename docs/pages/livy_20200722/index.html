@@ -2,21 +2,19 @@
 <html lang='en'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='lilybrevec&#39;s tech memo'>
+<meta name='description' content='だって似ているじゃん？'>
 <meta name='theme-color' content='#44ccff'>
 
-<meta property='og:title' content='Authors • Notes'>
-<meta property='og:description' content='lilybrevec&#39;s tech memo'>
-<meta property='og:url' content='https://lilybrevec.github.io/notes/authors/'>
+<meta property='og:title' content='lilybrevecはLivyを起動したい • Notes'>
+<meta property='og:description' content='だって似ているじゃん？'>
+<meta property='og:url' content='https://lilybrevec.github.io/notes/pages/livy_20200722/'>
 <meta property='og:site_name' content='Notes'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content='2020-07-22T00:22:41&#43;09:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='pages'><meta property='article:tag' content='livy'><meta property='article:tag' content='build'><meta property='article:published_time' content='2020-07-22T00:22:41&#43;09:00'/><meta property='article:modified_time' content='2020-07-22T00:22:41&#43;09:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.71.0" />
 
-  <title>Authors • Notes</title>
-  <link rel='canonical' href='https://lilybrevec.github.io/notes/authors/'>
-  
-    <link href="https://lilybrevec.github.io/notes/authors/index.xml" rel="alternate" type="application/rss+xml" title="Notes" />
+  <title>lilybrevecはLivyを起動したい • Notes</title>
+  <link rel='canonical' href='https://lilybrevec.github.io/notes/pages/livy_20200722/'>
   
   
   <link rel='icon' href='/notes/favicon.ico'>
@@ -27,7 +25,7 @@
   <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 
 </head>
-<body class='taxonomyTerm type-authors taxonomy-author has-sidebar'>
+<body class='page type-pages has-sidebar'>
 
   <div class='site'><div id='sidebar' class='sidebar'>
   <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
@@ -130,10 +128,11 @@
   </div>
 </nav><div class='header-widgets'>
         <div class='container'>
+    
     <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
   <section class='widget widget-breadcrumbs sep-after'>
     <nav id='breadcrumbs'>
-      <ol><li><a href='/notes/'>Home</a></li><li><span>Authors</span></li></ol>
+      <ol><li><a href='/notes/'>Home</a></li><li><a href='/notes/pages/'>Pages</a></li><li><span>lilybrevecはLivyを起動したい</span></li></ol>
     </nav>
   </section></div>
       </div>
@@ -148,23 +147,128 @@
       <main id='content'>
 
 
-<header class='header'>
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Authors</h1>
-
+      <h1 class='title'>lilybrevecはLivyを起動したい</h1>
       
+<p class='desc'>だって似ているじゃん？</p>
+
 
     </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2020-07-22T00:22:41&#43;09:00'>2020, Jul 22</time>
+</span>
+
+  
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+One min read
+</span>
+
+
+  
+  
+</div>
+
+
   </div>
 </header>
 
-
-<div class='container list-container'>
-  <ul class='list'>
   
-  </ul>
+  
+
+  <div class='container entry-content'>
+  <h3 id="dockerfile">Dockerfile</h3>
+<p>Issueに落ちていたDockerfileがバージョンでこけていたので修正。いずれまたバージョンが上がればこけそうな予感。</p>
+<pre><code>FROM gettyimages/spark:2.4.1-hadoop-3.0
+
+RUN apt-get update &amp;&amp; \
+    apt-get install -y wget &amp;&amp; \
+    rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /apps &amp;&amp; \
+    cd /apps &amp;&amp; \
+    wget https://ftp.jaist.ac.jp/pub/apache/incubator/livy/0.7.0-incubating/apache-livy-0.7.0-incubating-bin.zip &amp;&amp; \
+    unzip apache-livy-0.7.0-incubating-bin.zip -d /apps &amp;&amp; \
+    rm -f apache-livy-0.7.0-incubating-bin.zip &amp;&amp; \
+    mkdir /apps/apache-livy-0.7.0-incubating-bin/logs
+
+EXPOSE 8998
+
+CMD [&quot;/apps/apache-livy-0.7.0-incubating-bin/bin/livy-server&quot;]
+</code></pre><h3 id="起動">起動</h3>
+<pre><code>$ docker build . -t livy-spark
+$ docker run -d -p 8998:8998 livy-spark
+$ curl localhost:8998/sessions -X POST --data '{&quot;kind&quot;:&quot;spark&quot;}' -H &quot;Content-Type: application/json&quot;
+$ curl localhost:8998/sessions/0/statements -X POST -H 'Content-Type: application/json' -d '{&quot;code&quot;:&quot;val x = List((1, \&quot;a\&quot;), (3, \&quot;b\&quot;)).toDF(\&quot;number\&quot;, \&quot;key\&quot;)&quot;}'
+</code></pre><h3 id="動機">動機</h3>
+<ul>
+<li><a href="https://github.com/apache/incubator-livy">apache/incubator-livy: Mirror of Apache livy (Incubating)</a></li>
+<li>インキュベーターリヴィの語感が好み〜でとりあえず起動</li>
+<li>各種SparkクライアントがSparkクラスターに投げつける前段でREST APIを提供するウェブサーバー
+<ul>
+<li>Scala・Python・R受け付けられるように実装素敵</li>
+</ul>
+</li>
+<li><a href="https://github.com/jupyter-incubator/sparkmagic">jupyter-incubator/sparkmagic: Jupyter magics and kernels for working with remote Spark clusters</a></li>
+</ul>
+
 </div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='categories'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+  
+</svg>
+<span class='screen-reader-text'>Categories: </span><a class='category' href='/notes/categories/hadoop/'>hadoop</a></div>
+<div class='tags'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='/notes/tags/livy/'>livy</a>, <a class='tag' href='/notes/tags/build/'>build</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/notes/pages/fhe_20200608/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>完全準同型暗号気になる人が読むと良さげな資料</a>
+    </div></div>
+</nav>
+
+
+
 
       </main>
 
@@ -205,4 +309,25 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

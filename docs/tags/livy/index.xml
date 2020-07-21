@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>livy on Notes</title>
+    <link>https://lilybrevec.github.io/notes/tags/livy/</link>
+    <description>Recent content in livy on Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Jul 2020 00:22:41 +0900</lastBuildDate>
+    
+	<atom:link href="https://lilybrevec.github.io/notes/tags/livy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lilybrevecはLivyを起動したい</title>
+      <link>https://lilybrevec.github.io/notes/pages/livy_20200722/</link>
+      <pubDate>Wed, 22 Jul 2020 00:22:41 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/pages/livy_20200722/</guid>
+      <description>Dockerfile Issueに落ちていたDockerfileがバージョンでこけていたので修正。いずれまたバージョンが上がればこけそうな予感。
+FROM gettyimages/spark:2.4.1-hadoop-3.0 RUN apt-get update &amp;amp;&amp;amp; \ apt-get install -y wget &amp;amp;&amp;amp; \ rm -rf /var/lib/apt/lists/* RUN mkdir -p /apps &amp;amp;&amp;amp; \ cd /apps &amp;amp;&amp;amp; \ wget https://ftp.jaist.ac.jp/pub/apache/incubator/livy/0.7.0-incubating/apache-livy-0.7.0-incubating-bin.zip &amp;amp;&amp;amp; \ unzip apache-livy-0.7.0-incubating-bin.zip -d /apps &amp;amp;&amp;amp; \ rm -f apache-livy-0.7.0-incubating-bin.zip &amp;amp;&amp;amp; \ mkdir /apps/apache-livy-0.7.0-incubating-bin/logs EXPOSE 8998 CMD [&amp;quot;/apps/apache-livy-0.7.0-incubating-bin/bin/livy-server&amp;quot;] 起動 $ docker build . -t livy-spark $ docker run -d -p 8998:8998 livy-spark $ curl localhost:8998/sessions -X POST --data &#39;{&amp;quot;kind&amp;quot;:&amp;quot;spark&amp;quot;}&#39; -H &amp;quot;Content-Type: application/json&amp;quot; $ curl localhost:8998/sessions/0/statements -X POST -H &#39;Content-Type: application/json&#39; -d &#39;{&amp;quot;code&amp;quot;:&amp;quot;val x = List((1, \&amp;quot;a\&amp;quot;), (3, \&amp;quot;b\&amp;quot;)).</description>
+    </item>
+    
+  </channel>
+</rss>
