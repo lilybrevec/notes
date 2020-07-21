@@ -16,3 +16,5 @@ weight: -270
 ```
 
 何か間違いの指摘や各種ご意見がございましたら[ISSUE](https://github.com/lilybrevec/notes/issues)へ
+
+私の言葉は全て私のものであり、所属団体には一切関係ない事です。
