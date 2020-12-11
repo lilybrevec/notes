@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Impressions on lilybrevec&#39;s notes</title>
+    <link>https://lilybrevec.github.io/notes/categories/impressions/</link>
+    <description>Recent content in Impressions on lilybrevec&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 08 Jun 2020 01:47:24 +0900</lastBuildDate><atom:link href="https://lilybrevec.github.io/notes/categories/impressions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>完全準同型暗号気になる人が読むと良さげな資料</title>
+      <link>https://lilybrevec.github.io/notes/blog/fhe_20200608/</link>
+      <pubDate>Mon, 08 Jun 2020 01:47:24 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/blog/fhe_20200608/</guid>
+      <description>完全準同型暗号（FHE）と言う暗号がある 英語で言うとFully Homomorphic Encryption.</description>
+    </item>
+    
+    <item>
+      <title>Icedを触ってみた</title>
+      <link>https://lilybrevec.github.io/notes/blog/iced_20200522/</link>
+      <pubDate>Fri, 22 May 2020 00:13:00 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/blog/iced_20200522/</guid>
+      <description>IcedというRust GUIアプリケーション フレームワークがある  hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm  ElmにインスパイアされたRust製クロスプラットフォームGUIライブラリとのことで、「なんだか便利そう」程度のモチベーションで触ってみたが、結構使い心地が良く、大変気に入っている。</description>
+    </item>
+    
+  </channel>
+</rss>

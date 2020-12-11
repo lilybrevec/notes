@@ -1,0 +1,133 @@
+######################## default configuration ####################
+baseURL = "https://lilybrevec.github.io/notes/"
+publishDir = "docs"
+languageCode = "ja-jp"
+title = "lilybrevec's notes"
+theme = "liva-hugo"
+summaryLength = "1"
+paginate = 6
+disqusShortname = ""
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+
+############################## navigation ###############################
+[menu]
+
+  # main menu
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 1
+
+  [[menu.main]]
+  name = "Notes"
+  URL = "blog"
+  weight = 2
+
+
+  # footer menu
+  [[menu.footer]]
+  name = "About"
+  URL = "about"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Notes"
+  URL = "blog"
+  weight = 2
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "Technical memo"
+author = "lilybrevec"
+# Google Analitycs
+#googleAnalitycsID = ""
+# Contact Information
+#mobile = ""
+#email = ""
+#location = "Tokyo, Japan"
+# copyright
+copyright = "| copyright &copy; 2020 [lilybrevec](https://allabrevec.tokyo) All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+[params.newsletter]
+enable = false
+title = ""
+content = ""
+
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+
+############################# social site ########################
+#[[params.social]]
+#title = "facebook"
+#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/lilybrevec"
+
+#[[params.social]]
+#title = "instagram"
+#icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/lilybrevec"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "#"

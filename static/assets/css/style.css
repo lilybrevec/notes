@@ -1,0 +1,8 @@
+.content code{
+  color: white;
+  background: #272822;
+}
+.content code.language-py {
+  background: #272822;
+}
+

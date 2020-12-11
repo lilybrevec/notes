@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>livy on lilybrevec&#39;s notes</title>
+    <link>https://lilybrevec.github.io/notes/tags/livy/</link>
+    <description>Recent content in livy on lilybrevec&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0900</lastBuildDate><atom:link href="https://lilybrevec.github.io/notes/tags/livy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lilybrevecはLivyを起動したい</title>
+      <link>https://lilybrevec.github.io/notes/blog/livy_20200722/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/blog/livy_20200722/</guid>
+      <description>Dockerfile Issueに落ちていたDockerfileがバージョンでこけていたので修正。いずれまたバージョンが上がればこけそうな予感。</description>
+    </item>
+    
+  </channel>
+</rss>

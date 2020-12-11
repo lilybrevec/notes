@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja-jp"><head>
+  <meta charset="utf-8">
+  <title>lilybrevec&#39;s notes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="OCaml Universeの微かな記憶が蘇るということ">
+  <meta name="author" content="lilybrevec">
+  <meta name="generator" content="Hugo 0.79.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://lilybrevec.github.io/notes/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://lilybrevec.github.io/notes/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://lilybrevec.github.io/notes/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://lilybrevec.github.io/notes/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://lilybrevec.github.io/notes/scss/style.min.css" media="screen">
+
+  <link rel="stylesheet" href="https://lilybrevec.github.io/notes/assets/css/style.css">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://lilybrevec.github.io/notes/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://lilybrevec.github.io/notes/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://lilybrevec.github.io/notes/"><img class="img-fluid"
+          src="https://lilybrevec.github.io/notes/images/logo.png" alt="lilybrevec&#39;s notes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-5">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/lilybrevec"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lilybrevec"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://lilybrevec.github.io/notes/"><img class="img-fluid"
+            src="https://lilybrevec.github.io/notes/images/logo.png" alt="lilybrevec&#39;s notes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lilybrevec.github.io/notes/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lilybrevec.github.io/notes/blog">Notes</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://lilybrevec.github.io/notes//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/notes/categories/impressions"
+          class="text-primary">Impressions</a>
+        
+        <h2>Icedを触ってみた</h2>
+        <div class="mb-3 post-meta">
+          <span>By lilybrevec</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>22 May 2020</span>
+          
+        </div>
+        
+        <img src="https://lilybrevec.github.io/notes/images/featured-post/post-1.jpg" class="img-fluid w-100 mb-4" alt="Icedを触ってみた">
+        
+        <div class="content mb-5">
+          <h2 id="icedというrust-guiアプリケーション-フレームワークがある">IcedというRust GUIアプリケーション フレームワークがある</h2>
+<ul>
+<li><a href="https://github.com/hecrj/iced">hecrj/iced: A cross-platform GUI library for Rust, inspired by Elm</a></li>
+</ul>
+<p>ElmにインスパイアされたRust製クロスプラットフォームGUIライブラリとのことで、「なんだか便利そう」程度のモチベーションで触ってみたが、結構使い心地が良く、大変気に入っている。</p>
+<p>全体的なスタイルとしては、アプリケーションが状態を保持し、メッセージ等の機能によって状態を変化させる、謂わばステートマシンモデルのアプリケーション製作であり、これが個人的に大変手馴染みが良い。</p>
+<ul>
+<li><a href="https://docs.rs/iced/0.1.1/iced/trait.Application.html">Trait iced::Application</a></li>
+</ul>
+<p>このスタイルが恐らくElmからもたらされたと考えられるが、私はElmを全く知らない。
+しかし、この手馴染みの良さ、そしてこのどこか懐かしい感覚は一体なんだろうか。</p>
+<blockquote>
+<p>Rustがパターンマッチングを持つのでOCamlを思い出しているのかしら?</p>
+</blockquote>
+<blockquote>
+<p>待てよ、OCaml..OCamlだっ💡(:3</p>
+</blockquote>
+<p>学部3年生の時の<a href="http://pllab.is.ocha.ac.jp/~asai/Universe/">OCaml Universe</a>アプリケーション製作だな。</p>
+<p>ステートマシンモデルでアプリケーションを作るスタイルの出自については良く分かっていないが、関数型言語系アプリケーションの潮流なのかもしれないなぁと適当なことを考えた。（注：このNotesはひどく適当なので、何かコメントがございましたら<a href="https://github.com/lilybrevec/notes/issues">Issue</a>でご連絡いただけると幸いです。）</p>
+<p>というわけで、楽しく書かせていただいている。作者に感謝したい。</p>
+<p>あとは、作者に対する好感度も非常に高く持てるところがこのライブラリのいいところな気がする。
+例えばIssueでは、ほとんどの質問に対して、作者が質問に良く答えている印象。</p>
+<ul>
+<li>アイコンをどうするかワイワイ話し合っている。楽しそう。
+<ul>
+<li><a href="https://github.com/hecrj/iced/issues/143">Iced branding #143</a></li>
+</ul>
+</li>
+<li>個人的に役立ったフォントに関するissue
+<ul>
+<li><a href="https://github.com/hecrj/iced/issues/213">Does not support chinese? #213</a></li>
+</ul>
+</li>
+<li>個人的に役立ったストリームデータに関するissue
+<ul>
+<li><a href="https://github.com/hecrj/iced/issues/338">Create Subscription from futures::stream::Stream #338</a></li>
+</ul>
+</li>
+<li>キーイベントを簡単に補足する機能が実装されるかといったFuture Request Questionにも回答してもらえている。
+<ul>
+<li><a href="https://github.com/hecrj/iced/issues/173">Capture Key Events #173</a></li>
+</ul>
+</li>
+</ul>
+<p>今日はこの辺で。今後は気づいたTipsも投稿したい。</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/lilybrevec">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/lilybrevec">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/notes/categories/impressions">Impressions</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/notes/categories/testing-codes">Testing codes</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/notes/categories/writeups">Writeups</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://lilybrevec.github.io/notes/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://lilybrevec.github.io/notes/blog">Notes</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://allabrevec.tokyo">lilybrevec</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://lilybrevec.github.io/notes/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://lilybrevec.github.io/notes/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://lilybrevec.github.io/notes/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://lilybrevec.github.io/notes/plugins/slick/slick.min.js"></script>
+
+<script src="https://lilybrevec.github.io/notes/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://lilybrevec.github.io/notes/plugins/search/fuse.min.js"></script>
+
+<script src="https://lilybrevec.github.io/notes/plugins/search/mark.js"></script>
+
+<script src="https://lilybrevec.github.io/notes/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://lilybrevec.github.io/notes/js/script.min.js"></script>
+
+
+
+
+</body>
+</html>

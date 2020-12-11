@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WriteUps on lilybrevec&#39;s notes</title>
+    <link>https://lilybrevec.github.io/notes/categories/writeups/</link>
+    <description>Recent content in WriteUps on lilybrevec&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 10 Dec 2020 22:00:00 +0900</lastBuildDate><atom:link href="https://lilybrevec.github.io/notes/categories/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Cyber 2020 Christmas</title>
+      <link>https://lilybrevec.github.io/notes/blog/adventofcyber_20201207/</link>
+      <pubDate>Thu, 10 Dec 2020 22:00:00 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/blog/adventofcyber_20201207/</guid>
+      <description>Advent Cyber 2020 やってみたら楽しかった。    TryHackMe!</description>
+    </item>
+    
+    <item>
+      <title>InCTF参加記:PolyRSA</title>
+      <link>https://lilybrevec.github.io/notes/blog/inctf_20200803/</link>
+      <pubDate>Mon, 03 Aug 2020 22:21:22 +0900</pubDate>
+      
+      <guid>https://lilybrevec.github.io/notes/blog/inctf_20200803/</guid>
+      <description>感想   なんか惜しいところまで行ったような気がするんだけど、そうでもなかったりする&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>
