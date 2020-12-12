@@ -1,0 +1,11 @@
+theme: jekyll-theme-cayman
+twitter:
+  username: allabrevec
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: static/images/githublogo.png
+        height: 640
+        width: 1280
